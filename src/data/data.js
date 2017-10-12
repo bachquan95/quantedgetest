@@ -208,7 +208,7 @@ export default [
       xchange: 0
     },
     {
-      code: 'RRx.AX',
+      code: 'RRX.AX',
       company: 'Red Rooster',
       price: (Math.random()*(99.99 - 0.01)+0.01).toFixed(2),
       volume: parseInt(Math.random()*(1000000 - 1000)+1000, 10),
