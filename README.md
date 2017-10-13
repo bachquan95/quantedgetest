@@ -1,8 +1,12 @@
 # QuantEdge-test
 
-# Run
+# Clone repository
 git clone
+
+# Install
 npm install
+
+# Run
 npm start
 
 Runs the app in the development mode.
