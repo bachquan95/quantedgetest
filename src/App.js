@@ -52,8 +52,8 @@ class App extends Component {
       let changePrice = Math.random() * (range + range) - range
       let changeVolume = Math.random() * (30 - 10) + 10
       listChange[index].price = (changePrice + parseFloat(listChange[index].price)).toFixed(2)
-      listChange[index].change = parseFloat(listChange[index].change + changePrice).toFixed(2)
       listChange[index].volume = parseInt(listChange[index].volume + parseInt(changeVolume, 10), 10)
+      listChange[index].change = parseFloat(parseFloat(listChange[index].change) + changePrice).toFixed(2)
       listChange[index].xchange = ((listChange[index].change / (listChange[index].price - listChange[index].change)) * 100).toFixed(2);
     }
     this.setState({
